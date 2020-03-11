@@ -5,7 +5,7 @@ void pares (int num1,int num2);
 int main ()
 {
 
-int num1, int num2, numpares;
+int num1; int num2; pares;
 
 printf("dime el primer numero: \n");
 
