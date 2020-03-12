@@ -7,12 +7,12 @@ int main()
 	printf("dame un numero\n");
 	scanf("%d",&num1);
 	
-	cont=divisores(num1);
+	cont=divisores(num1);//Vamos a nuestra funcion divisores
 	printf("el numero de divisores es %d\n",cont);
 	
 	}
 	
-	int divisores(int a)
+	int divisores(int a)// aqui a=num1 lo que pasa que las variables de distintas funciones no se conocen.
  {
 	int i;
 	int cont=i;
