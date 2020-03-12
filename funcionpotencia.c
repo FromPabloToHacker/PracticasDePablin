@@ -23,7 +23,7 @@ int main()
 	else
 	{
 	
-	funcion=area(num1,num2);
+	funcion=area(num1,num2);//estamos llamando a la funcion e indicando que lo que nos devuelva se guardara en la variable función.
 	
 	printf("el area es: %f\n",funcion);
 	
@@ -40,6 +40,6 @@ int main()
 	
 	resultado=pow(num1,num2);
 	
-	return(resultado);
+	return(resultado);// nos devuelve a nuestro printf.
 	}
 	
