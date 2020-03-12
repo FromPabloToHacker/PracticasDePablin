@@ -25,7 +25,7 @@ int main()
 	
 	funcion=potencia(num1,num2);//estamos llamando a la funcion e indicando que lo que nos devuelva se guardara en la variable función.
 	
-	printf("el area es: %f\n",funcion);
+	printf("la potencia es: %f\n",funcion);
 	
 	}
 	
