@@ -16,7 +16,7 @@ int main()
 	}
 	else
 	{
-	suma=cuadrados(num1);	
+	suma=cuadrados(num1);	//nos lleva a la función cuadrados
 	
 	printf("la suma es: %d\n",suma);
 	}
@@ -31,11 +31,11 @@ int main()
 	for(i=0;i<=a;i++)
 	{	
 	
-	potencia=pow(i,2);
+	potencia=pow(i,2);// en pow(base,exponente).
 	
 	suma=suma+potencia;
 	
 	}
 	
-	return suma;
+	return suma;//Esto nos lleva al resultado suma.
 }
