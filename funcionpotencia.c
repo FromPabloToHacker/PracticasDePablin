@@ -40,6 +40,6 @@ int main()
 	
 	resultado=pow(num1,num2);
 	
-	return(resultado);// nos devuelve a nuestro printf.
+	return(resultado);// nos devuelve a nuestro printf
 	}
 	
