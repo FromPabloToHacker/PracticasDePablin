@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-float area(float num1,float num2);
+float potencia(float num1,float num2);
 
 int main()
 
@@ -23,7 +23,7 @@ int main()
 	else
 	{
 	
-	funcion=area(num1,num2);//estamos llamando a la funcion e indicando que lo que nos devuelva se guardara en la variable función.
+	funcion=potencia(num1,num2);//estamos llamando a la funcion e indicando que lo que nos devuelva se guardara en la variable función.
 	
 	printf("el area es: %f\n",funcion);
 	
@@ -33,7 +33,7 @@ int main()
 	
 	}
 	
-	float area(float num1,float num2);
+	float potencia(float num1,float num2);
 	{
 	
 	float resultado;
