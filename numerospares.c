@@ -8,7 +8,6 @@ int main ()
 int num1; int num2; pares;
 
 printf("dime el primer numero: \n");
-
 scanf("%d",&num1);
 
 printf("dime el segundo numero: \n");
@@ -24,13 +23,13 @@ scanf("%d",&num2);
 
 	{
 
-	pares(num1,num2);
+	pares(num1,num2);//nos manda directamente a nuestra funcion pares (void).
 
 	}
 return 0;
 	}
 
-	void pares(int num1,int num2)
+	void pares(int num1,int num2)//Es una función que no devuelve.
 	{
 	int i;
 	for(i=num2; i>=num1; i--)
