@@ -19,7 +19,7 @@ int num1,resultado;
 	else 
 	{
 	
-	resultado= suma(num1);
+	resultado= suma(num1);//Estamos yendo a la funcion suma.
 	printf("%d\n",resultado);
 	
 	}
