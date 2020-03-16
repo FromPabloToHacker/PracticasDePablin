@@ -41,5 +41,5 @@ double distancia(double pinicial[2],double pfinal[2]){
 	
 	}
 	
-	return dist;
+	return dist; 
 	}
