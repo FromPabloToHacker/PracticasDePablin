@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define N 20
+
+void pares(int v[N]);
+
+int main(){
+	
+	int pares(int v[N]);
+	int vector[N],i,resultado;
+	
+	srand(time(NULL));
+	
+	for(i=0; i<N; i++){
+		vector[i]=rand()%40 + 1;
+	}
+	
+	
+	printf("La suma de los elementos pares del vector son: %d");
+	return 0;	
+}
+
+
+
+void pares(int v[N]){
+	
+	int i,suma=0;
+	
+		for(i=0; i<N; i++){
+			if (i % 2)
+			suma = suma+ v[i];
+		}
+	
+}
